@@ -142,7 +142,7 @@ btnLogin.addEventListener('click', function (e) {
     inputLoginUsername.disable=false;
     btnLogin.disable=false;
     
-    createacc.classList.remove("hide") 
+    createacc.classList.remove("hide");
 
     
   })
