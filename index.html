@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Database</title>
+  </head>
+  <body>
+    <nav class="mainnav">
+      <p class="welcome">Log in to get started</p>
+      
+      <img src="pngegg.png"Logo" class="logo" />
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+        <input
+          type="password"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+        />
+        <button class="login__btn">LOGIN</button>
+        <button class="login__btn createbtn">create new account</button>
+      </form>
+      <div class="wrongpwd hide">
+        <p class="wrongcode">! Wrong password or credentials,Try again</p>
+      </div>
+    </nav>
+    <div class="nav2">
+      <a href="#" class="navs btn" id="button1" ">home</a>
+      <a href="#" class="navs btn " id="button2">profile</a>
+    </div>
+    
+    <main class="app">
+      
+      <div class="contents">
+        
+      <div class="table__row">
+        <div class="table__date">NAME</div>
+        <div class="table__value">Magesh</div>
+      </div>
+      <div class="table__row">
+        <div class="table__date">mail ID</div>
+        <div class="table__value">mageshxyz@gmail.com</div>
+      </div>
+      <div class="table__row">
+        <div class="table__date">USername</div>
+        <div class="table__value">Mag</div>
+      </div>
+      <div class="table__row">
+        <div class="table__date">password</div>
+        <div class="table__value">12345</div>
+      </div>
+      <div class="table__row">
+        <div class="table__date">PHONENUMBER</div>
+        <div class="table__value">1245465488</div>
+      </div>
+    </main>
+    
+
+     
+
+    
+
+    <div class="accountopen hide">
+      <h1 class="textedit"> CREATE NEW ACCOUNT</h1>
+      <form  class="accopn">
+        
+        <input type="text" id="crtename" class="inp"placeholder="enter your name"/>
+        <input type="text" id="crtemail" class="inp" placeholder="mailid"/>
+        <input type="number" id="crteph" class="inp"placeholder="enter phno"/>
+        <input type="text" id="crteuser" class="inp" placeholder="create your username"/>
+        <input type="number" id="crtepwd" class="inp"placeholder="create your password"/>
+        <button class="submit ">submit</button>
+
+      
+        
+      </form> 
+
+    </div>
+
+    
+    
+
+
+
+         
+    <footer >
+      <button class="btn Logout hide">Logout</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
